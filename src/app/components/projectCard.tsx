@@ -34,7 +34,7 @@ export default function ProjectCard({ project }: { project: projectType }) {
                 <p>No technologies specified</p>
                 )}
             </div>
-            <a href={`/${project.name}`} className="self-end border mt-auto border-black rounded w-fit px-5 py-1 bg-black text-white hover:text-black hover:bg-transparent transition-all hover:cursor-pointer">View Project</a>
+            <a href={`/project/${project.name}`} className="self-end border mt-auto border-black rounded w-fit px-5 py-1 bg-black text-white hover:text-black hover:bg-transparent transition-all hover:cursor-pointer">View Project</a>
         </div>
       </div>
     </div>
