@@ -1,0 +1,92 @@
+{
+    "projects": [
+        {
+            "name": "ArtistLinq",
+            "description": "A social media platform for artists to showcase their talent, set up shop for commissions, or view other artwork on the platform",
+            "images": [
+                "artistlinq.png"
+            ],
+            "technologies": [
+                "Javascript",
+                "Python",
+                "Flask",
+                "SQLAlchemy",
+                "PostgreSQL",
+                "Jinja2",
+                "Azure",
+                "systemd"
+            ]
+        },
+        {
+            "name": "GardenGame",
+            "description": "A fun and interactive game for you to sit back and cultivate a peaceful garden",
+            "images": [
+                "gardengame.png"
+            ],
+            "technologies": [
+                "Javascript",
+                "Python",
+                "Flask",
+                "SQLAlchemy",
+                "PostgreSQL",
+                "Jinja2",
+                "AWS"
+            ]
+        },
+        {
+            "name": "MidiFret",
+            "description": "An online coverter that lets users convert midi files into readable guitar tablature format",
+            "images": [
+                "midifret.png"
+            ],
+            "technologies": [
+                "HTML",
+                "Javascript",
+                "Node",
+                "Express",
+                "bit.io",
+                "Rollbar"
+            ]
+        },
+        {
+            "name": "PixelPath",
+            "description": "A fun tower defense game that pits the user against endless rounds of randomized chaos",
+            "images": [
+                "pixelpath.png"
+            ],
+            "technologies": [
+                "C#",
+                "Unity",
+                "Blender"
+            ]
+        },
+        {
+            "name": "Movie Rating App",
+            "description": "A website that allows the user to rate their favorite movies",
+            "images": [
+                "movierating.png"
+            ]
+        }
+    ],
+    "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "React",
+        "Next.js",
+        "Node",
+        "Python",
+        "Flask",
+        "SQL",
+        "MySQL",
+        "C#",
+        "C++",
+        "Java",
+        "AWS",
+        "Azure",
+        "git",
+        "Jinja2",
+        "tkinter"
+    ]
+}
