@@ -8,8 +8,7 @@ interface projectType {
   images: string[] | undefined;
 }
 
-const skillStyle =
-  'bg-gray-700 text-white rounded-full px-2 w-fit hover:bg-gray-800 hover:cursor-default hover:shadow-sm hover:shadow-gray-500 hover:text-gray-100';
+const skillStyle = 'bg-gray-700 text-white rounded-full px-2 w-fit hover:bg-gray-800 hover:cursor-default hover:shadow-sm hover:shadow-gray-500 hover:text-gray-100';
 
 export default function ProjectCard({ project }: { project: projectType }) {
   return (
