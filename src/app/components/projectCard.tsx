@@ -15,12 +15,12 @@ export default function ProjectCard({ project }: { project: projectType }) {
     <div className="flex flex-col border p-5 gap-3 rounded">
       <h3 className="text-2xl">{project.name}</h3>
       <div className='flex flex-row gap-5'>
-        <div className='w-[500px] min-h-[250px] flex justify-center place-items-center'>
+        <div className='w-[300px] h-[250px] flex justify-center place-items-center'>
             {project.images && project.images[0] ? (
                 <img src={`/images/${project.images[0]}`} alt={project.name} />
             ) : null}
         </div>
-        <div className='flex flex-col gap-3 w-[500px]'>
+        <div className='flex flex-col gap-3 w-[300px] h-full'>
             <p>{project.description}</p>
             <div className="flex flex-wrap gap-2">
                 {project.technologies ? (

@@ -22,14 +22,16 @@ export default function Projects() {
       .catch(error => console.error('Error fetching projects:', error));
     }, []);
 
-    console.log('projects')
-    console.log(projects)
-
     return (
-        <div className="flex flex-col gap-5">
-            { projects.map((project: projectType, index) => (
-                <ProjectCard key={project.id} project={project} />
-            )) }
+        <div className='flex flex-row'>
+            <div className='bg-black w-20'>
+
+            </div>
+            <div className="flex flex-col gap-6">
+                { projects.map((project: projectType, index) => (
+                    <ProjectCard key={project.id} project={project} />
+                )) }
+            </div>
         </div>
     )
 }
